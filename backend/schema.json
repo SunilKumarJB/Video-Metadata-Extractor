@@ -1,0 +1,82 @@
+[
+  {
+    "name": "video_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "source",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "timestamp_start",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "timestamp_end",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "category",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "editing_justification",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "visuals_camera",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "audio_cues",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pacing",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "repurposing_idea",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "edit_cut_notes",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "summary",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "tags",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "embedding",
+    "type": "FLOAT64",
+    "mode": "REPEATED"
+  }
+]

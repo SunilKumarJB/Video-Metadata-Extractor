@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-genai
+google-cloud-storage
+google-cloud-bigquery
+yt-dlp
+pydantic
+python-multipart
+jinja2
+python-dotenv
+numpy
