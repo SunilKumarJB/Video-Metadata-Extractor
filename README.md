@@ -37,7 +37,7 @@ GCP_PROJECT_ID=your-project-id
 GCP_LOCATION=us-central1
 GCS_BUCKET_NAME=your-bucket-name
 
-GEMINI_MODEL_TEXT=gemini-1.5-pro
+GEMINI_MODEL_TEXT=gemini-2.5-pro
 GEMINI_MODEL_TEXT_LOCATION=us-central1
 GEMINI_MODEL_EMBEDDING=gemini-embedding-2-preview
 GEMINI_MODEL_EMBEDDING_LOCATION=us-central1
