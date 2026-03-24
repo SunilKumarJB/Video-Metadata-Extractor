@@ -14,7 +14,7 @@ An advanced AI-powered insights engine to **analyze**, **extract rich metadata**
 This repository provides an advanced video metadata extraction pipeline via a NextJS frontend and a scalable FastAPI backend.
 
 ### Key Features
-- **Video Analysis & Scene Extraction**: Automatically break down uploaded videos into specific scenes (e.g., Hooks, Action, Comedic Beats) extracting timestamps, summaries, and edits using Gemini 1.5 Pro.
+- **Video Analysis & Scene Extraction**: Automatically break down uploaded videos into specific scenes (e.g., Hooks, Action, Comedic Beats) extracting timestamps, summaries, and edits using Gemini 2.5 or 3.1 Pro.
 - **YouTube & Local Video Support**: Upload local `mp4` or `mov` files directly to Google Cloud Storage or paste YouTube links for seamless analysis.
 - **Multimodal Prompt & Video Library**: Upload videos along with specific behavioral prompts to BigQuery. Easily search this library using text or image queries leveraging Gemini 2 Multimodal Vector Embeddings.
 - **Semantic Vector Search**: Native integration with BigQuery `VECTOR_SEARCH` (with an automatic local SQLite cosine similarity fallback) to instantly find specific scenes across your video catalog.
