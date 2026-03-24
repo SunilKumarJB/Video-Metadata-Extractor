@@ -3,8 +3,13 @@
 An advanced AI-powered insights engine to **analyze**, **extract rich metadata**, and **semantically search** video scenes sequentially leveraging Gemini and Google Cloud architectures.
 
 ---
+<div align="center">
 
-## 🚀 Overview
+<img src="VideoMetadataExtractor.png" alt="Video Metadata Extractor" width="720">
+
+</div>
+
+## Overview
 
 This repository provides an advanced video metadata extraction pipeline via a NextJS frontend and a scalable FastAPI backend.
 
@@ -15,6 +20,18 @@ This repository provides an advanced video metadata extraction pipeline via a Ne
 - **Semantic Vector Search**: Native integration with BigQuery `VECTOR_SEARCH` (with an automatic local SQLite cosine similarity fallback) to instantly find specific scenes across your video catalog.
 - **Modern NextJS Dashboard**: Fully-responsive interface with dynamic Light/Dark mode toggling, statistical metadata insights, asset library management, and comprehensive search portals.
 - **Scalable FastAPI Backend**: Concurrent background task processing tailored for Cloud Run deployments and frictionless Google Cloud integrations.
+
+---
+## 🚀 Use Cases & Applications
+
+By transforming unstructured video files into semantically searchable databases, this tool unlocks powerful capabilities across the media space:
+
+*   **✂️ Automated Short-Form Repurposing:** Instantly locate "Hooks" and "Comedic Beats" in long-form content to rapidly generate clips for TikTok, Reels, or Shorts.
+*   **🎬 Smart Trailer Generation:** Query your massive video catalog for specific action sequences, emotional beats, or visual aesthetics without manual scrubbing.
+*   **🗄️ Instant Archival Retrieval:** Use semantic text or image search to instantly find exact B-roll moments (e.g., "crowd cheering in the rain") for news and documentary production.
+*   **🎯 Contextual Ad Insertion:** Analyze scene moods and summaries to dynamically place context-aware advertisements (e.g., avoiding upbeat ads after a tragic scene).
+*   **⚽ Sports Highlight Reels:** Feed behavioral prompts to instantly extract key plays and compile highlight reels across hours of multi-camera game feeds.
+*   **🛡️ Automated Content Moderation:** Automatically flag sensitive, violent, or non-compliant scenes using targeted prompts, complete with exact timestamps for rapid review.
 
 ---
 
