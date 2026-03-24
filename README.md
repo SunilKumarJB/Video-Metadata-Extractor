@@ -39,7 +39,7 @@ By transforming unstructured video files into semantically searchable databases,
 
 ### Backend (`/backend`)
 - **Framework**: FastAPI (Uvicorn concurrent hooks).
-- **Core AI Wrappers**: `google-genai` leveraging Vertex AI endpoints wrapping `gemini-1.5-pro`.
+- **Core AI Wrappers**: `google-genai` leveraging Vertex AI endpoints wrapping `gemini-2.5-pro`.
 - **Datalayers**: Google Cloud Storage & Standard BigQuery (manual SQLite fallbacks preserved).
 
 ### Frontend (`/frontend`)
@@ -88,7 +88,7 @@ Executes sequential deployments pushing remote frame bundles caching securely.
 
 To ensure the **Backend** running on Cloud Run can operate smoothly without `403 Access Denied` errors, ensure your Cloud Run service account has the following roles:
 - **BigQuery Data Editor** (`roles/bigquery.dataEditor`) on the target Dataset or Project for inserting insights.
-- **Vertex AI User** (`roles/aiplatform.user`) for executing Gemini 1.5 Pro multimodal models.
+- **Vertex AI User** (`roles/aiplatform.user`) for executing Gemini 2.5 oe 3.1 Pro multimodal models.
 - **Storage Object Admin** (`roles/storage.objectAdmin`) or **Storage Object User** (`roles/storage.objectUser`) on the GCS Bucket to upload and process staged videos.
 
 By default, Cloud Run uses the **Compute Engine default service account** (`[PROJECT_NUMBER]-compute@developer.gserviceaccount.com`). You can assign these roles in the GCP IAM console under **IAM & Admin**.
