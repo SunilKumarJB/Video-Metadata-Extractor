@@ -6,11 +6,15 @@ An advanced AI-powered insights engine to **analyze**, **extract rich metadata**
 
 ## 🚀 Overview
 
-This repository enables modular workflow routing dividing schedules between visual NextJS aggregates and scalable FastAPI compute wrappers evaluates:
-- **Precision Scene Breakdowns**: Automatic timestamp thresholds identifying descriptive action plans sequentially.
-- **Multimodal Video & Prompt Embeddings**: Upload videos with prompts directly into `prompt_video_table` in BigQuery and search them using Gemini 2 Multimodal Vector Embeddings (Text & Visual).
-- **Support for Youtube & Local Buckets**: Stream triggers caching endpoints safely maps.
-- **Semantic Vector Indexes**: Fully utilizes Gemini embedding endpoints targeting deterministic seeks on dashboards directly.
+This repository provides an advanced video metadata extraction pipeline via a NextJS frontend and a scalable FastAPI backend.
+
+### Key Features
+- **Video Analysis & Scene Extraction**: Automatically break down uploaded videos into specific scenes (e.g., Hooks, Action, Comedic Beats) extracting timestamps, summaries, and edits using Gemini 1.5 Pro.
+- **YouTube & Local Video Support**: Upload local `mp4` or `mov` files directly to Google Cloud Storage or paste YouTube links for seamless analysis.
+- **Multimodal Prompt & Video Library**: Upload videos along with specific behavioral prompts to BigQuery. Easily search this library using text or image queries leveraging Gemini 2 Multimodal Vector Embeddings.
+- **Semantic Vector Search**: Native integration with BigQuery `VECTOR_SEARCH` (with an automatic local SQLite cosine similarity fallback) to instantly find specific scenes across your video catalog.
+- **Modern NextJS Dashboard**: Fully-responsive interface with dynamic Light/Dark mode toggling, statistical metadata insights, asset library management, and comprehensive search portals.
+- **Scalable FastAPI Backend**: Concurrent background task processing tailored for Cloud Run deployments and frictionless Google Cloud integrations.
 
 ---
 
