@@ -75,3 +75,14 @@ To ensure the **Backend** running on Cloud Run can operate smoothly without `403
 - **Storage Object Admin** (`roles/storage.objectAdmin`) or **Storage Object User** (`roles/storage.objectUser`) on the GCS Bucket to upload and process staged videos.
 
 By default, Cloud Run uses the **Compute Engine default service account** (`[PROJECT_NUMBER]-compute@developer.gserviceaccount.com`). You can assign these roles in the GCP IAM console under **IAM & Admin**.
+
+
+---
+
+<div align="center">
+
+[**Sunil Kumar**](https://www.linkedin.com/in/sunilkumar88/)
+
+<sub>A Gemini use-case demonstration. Not an official Google product.</sub>
+
+</div>
