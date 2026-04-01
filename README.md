@@ -50,6 +50,13 @@ By transforming unstructured video files into semantically searchable databases,
 
 ## ⚙️ Local Setup
 
+Login to GCP project using gcloud command from your local setup:
+```bash
+gcloud auth login
+gcloud config set project <PROJECT_ID>
+gcloud auth application-default login
+```
+
 ### 1. Config Environment
 Create a `.env` file in the root mirroring `.env.example`:
 
@@ -68,7 +75,7 @@ GEMINI_MODEL_EMBEDDING_LOCATION=us-central1
 ```
 
 ### 2. Configure & Run
-You can easily setup and run all required services concurrently:
+You can easily setup and run all required services concurrently (Assuming GCS Bucket and BigQuery is already setup):
 ```bash
 make start-all
 ```
@@ -79,7 +86,7 @@ Open [http://localhost:3000](http://localhost:3000) accessing central stats dyna
 
 ## ☁️ Cloud Run Deployment
 
-You can facilitate sequential infrastructure creations safely passing secure Buildpacks configurations leveraging the provided orchestrator hooks:
+You can facilitate sequential infrastructure creations safely passing secure Buildpacks configurations leveraging the provided orchestrator hooks (Handles all the BiqQuery & GCS bucket creation):
 
 ```bash
 chmod +x deploy_cloudrun.sh
