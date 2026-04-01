@@ -86,7 +86,7 @@ Open [http://localhost:3000](http://localhost:3000) accessing central stats dyna
 
 ## ☁️ Cloud Run Deployment
 
-You can facilitate sequential infrastructure creations safely passing secure Buildpacks configurations leveraging the provided orchestrator hooks (Handles all the BiqQuery & GCS bucket creation):
+You can facilitate sequential infrastructure creations safely passing secure Buildpacks configurations leveraging the provided orchestrator hooks (Handles all the BiqQuery & deployment of the application):
 
 ```bash
 chmod +x deploy_cloudrun.sh
